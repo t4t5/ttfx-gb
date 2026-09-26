@@ -1,9 +1,10 @@
 # The ROM is named after the project directory:
 rom := "build/" + file_name(justfile_directory()) + ".gb"
 
-# Regenerate logo.inc from logo.txt (Omarchy's screensaver logo):
+# Regenerate logo.inc and effects.inc from logo.txt (Omarchy's screensaver logo):
 logo:
     python3 tools/logo.py
+    python3 tools/effects.py
 
 # Build the ROM (-C marks it Game Boy Color compatible):
 build:
