@@ -8,490 +8,490 @@ PaletteRows::
 
 ; The stream of screen updates, one ROM bank at a time
 SECTION "Stream bank 1", ROMX, BANK[1]
-    INCBIN "effects.bin", 0, 14816
+    INCBIN "effects.bin", 0, 16190
 SECTION "Stream bank 2", ROMX, BANK[2]
-    INCBIN "effects.bin", 16384, 14586
+    INCBIN "effects.bin", 16384, 15592
 SECTION "Stream bank 3", ROMX, BANK[3]
-    INCBIN "effects.bin", 32768, 14586
+    INCBIN "effects.bin", 32768, 15688
 SECTION "Stream bank 4", ROMX, BANK[4]
-    INCBIN "effects.bin", 49152, 15650
+    INCBIN "effects.bin", 49152, 15688
 SECTION "Stream bank 5", ROMX, BANK[5]
-    INCBIN "effects.bin", 65536, 14276
+    INCBIN "effects.bin", 65536, 15714
 SECTION "Stream bank 6", ROMX, BANK[6]
-    INCBIN "effects.bin", 81920, 13772
+    INCBIN "effects.bin", 81920, 15678
 SECTION "Stream bank 7", ROMX, BANK[7]
-    INCBIN "effects.bin", 98304, 14692
+    INCBIN "effects.bin", 98304, 16344
 SECTION "Stream bank 8", ROMX, BANK[8]
-    INCBIN "effects.bin", 114688, 13912
+    INCBIN "effects.bin", 114688, 15596
 SECTION "Stream bank 9", ROMX, BANK[9]
-    INCBIN "effects.bin", 131072, 14852
+    INCBIN "effects.bin", 131072, 16274
 SECTION "Stream bank 10", ROMX, BANK[10]
-    INCBIN "effects.bin", 147456, 13638
+    INCBIN "effects.bin", 147456, 15366
 SECTION "Stream bank 11", ROMX, BANK[11]
-    INCBIN "effects.bin", 163840, 14902
+    INCBIN "effects.bin", 163840, 15482
 SECTION "Stream bank 12", ROMX, BANK[12]
-    INCBIN "effects.bin", 180224, 16064
+    INCBIN "effects.bin", 180224, 15888
 SECTION "Stream bank 13", ROMX, BANK[13]
-    INCBIN "effects.bin", 196608, 13796
+    INCBIN "effects.bin", 196608, 15128
 SECTION "Stream bank 14", ROMX, BANK[14]
-    INCBIN "effects.bin", 212992, 15696
+    INCBIN "effects.bin", 212992, 15888
 SECTION "Stream bank 15", ROMX, BANK[15]
-    INCBIN "effects.bin", 229376, 15270
+    INCBIN "effects.bin", 229376, 15892
 SECTION "Stream bank 16", ROMX, BANK[16]
-    INCBIN "effects.bin", 245760, 16156
+    INCBIN "effects.bin", 245760, 16224
 SECTION "Stream bank 17", ROMX, BANK[17]
-    INCBIN "effects.bin", 262144, 16364
+    INCBIN "effects.bin", 262144, 14896
 SECTION "Stream bank 18", ROMX, BANK[18]
-    INCBIN "effects.bin", 278528, 15522
+    INCBIN "effects.bin", 278528, 14510
 SECTION "Stream bank 19", ROMX, BANK[19]
-    INCBIN "effects.bin", 294912, 16060
+    INCBIN "effects.bin", 294912, 15436
 SECTION "Stream bank 20", ROMX, BANK[20]
-    INCBIN "effects.bin", 311296, 15924
+    INCBIN "effects.bin", 311296, 16170
 SECTION "Stream bank 21", ROMX, BANK[21]
-    INCBIN "effects.bin", 327680, 16020
+    INCBIN "effects.bin", 327680, 15740
 SECTION "Stream bank 22", ROMX, BANK[22]
-    INCBIN "effects.bin", 344064, 16060
+    INCBIN "effects.bin", 344064, 15876
 SECTION "Stream bank 23", ROMX, BANK[23]
-    INCBIN "effects.bin", 360448, 15854
+    INCBIN "effects.bin", 360448, 14792
 SECTION "Stream bank 24", ROMX, BANK[24]
-    INCBIN "effects.bin", 376832, 15874
+    INCBIN "effects.bin", 376832, 13882
 SECTION "Stream bank 25", ROMX, BANK[25]
-    INCBIN "effects.bin", 393216, 15636
+    INCBIN "effects.bin", 393216, 14392
 SECTION "Stream bank 26", ROMX, BANK[26]
-    INCBIN "effects.bin", 409600, 16286
+    INCBIN "effects.bin", 409600, 13568
 SECTION "Stream bank 27", ROMX, BANK[27]
-    INCBIN "effects.bin", 425984, 15954
+    INCBIN "effects.bin", 425984, 15532
 SECTION "Stream bank 28", ROMX, BANK[28]
-    INCBIN "effects.bin", 442368, 15960
+    INCBIN "effects.bin", 442368, 15350
 SECTION "Stream bank 29", ROMX, BANK[29]
-    INCBIN "effects.bin", 458752, 15576
+    INCBIN "effects.bin", 458752, 14660
 SECTION "Stream bank 30", ROMX, BANK[30]
-    INCBIN "effects.bin", 475136, 16346
+    INCBIN "effects.bin", 475136, 15796
 SECTION "Stream bank 31", ROMX, BANK[31]
-    INCBIN "effects.bin", 491520, 15826
+    INCBIN "effects.bin", 491520, 16200
 SECTION "Stream bank 32", ROMX, BANK[32]
-    INCBIN "effects.bin", 507904, 16312
+    INCBIN "effects.bin", 507904, 15842
 SECTION "Stream bank 33", ROMX, BANK[33]
-    INCBIN "effects.bin", 524288, 15958
+    INCBIN "effects.bin", 524288, 15184
 SECTION "Stream bank 34", ROMX, BANK[34]
-    INCBIN "effects.bin", 540672, 16142
+    INCBIN "effects.bin", 540672, 15904
 SECTION "Stream bank 35", ROMX, BANK[35]
-    INCBIN "effects.bin", 557056, 16374
+    INCBIN "effects.bin", 557056, 16054
 SECTION "Stream bank 36", ROMX, BANK[36]
-    INCBIN "effects.bin", 573440, 15674
+    INCBIN "effects.bin", 573440, 14916
 SECTION "Stream bank 37", ROMX, BANK[37]
-    INCBIN "effects.bin", 589824, 15506
+    INCBIN "effects.bin", 589824, 15916
 SECTION "Stream bank 38", ROMX, BANK[38]
-    INCBIN "effects.bin", 606208, 16346
+    INCBIN "effects.bin", 606208, 13982
 SECTION "Stream bank 39", ROMX, BANK[39]
-    INCBIN "effects.bin", 622592, 15928
+    INCBIN "effects.bin", 622592, 16236
 SECTION "Stream bank 40", ROMX, BANK[40]
-    INCBIN "effects.bin", 638976, 16334
+    INCBIN "effects.bin", 638976, 16166
 SECTION "Stream bank 41", ROMX, BANK[41]
-    INCBIN "effects.bin", 655360, 15856
+    INCBIN "effects.bin", 655360, 14406
 SECTION "Stream bank 42", ROMX, BANK[42]
-    INCBIN "effects.bin", 671744, 15768
+    INCBIN "effects.bin", 671744, 16100
 SECTION "Stream bank 43", ROMX, BANK[43]
-    INCBIN "effects.bin", 688128, 16174
+    INCBIN "effects.bin", 688128, 16310
 SECTION "Stream bank 44", ROMX, BANK[44]
-    INCBIN "effects.bin", 704512, 15194
+    INCBIN "effects.bin", 704512, 16320
 SECTION "Stream bank 45", ROMX, BANK[45]
-    INCBIN "effects.bin", 720896, 16048
+    INCBIN "effects.bin", 720896, 14656
 SECTION "Stream bank 46", ROMX, BANK[46]
-    INCBIN "effects.bin", 737280, 16144
+    INCBIN "effects.bin", 737280, 14316
 SECTION "Stream bank 47", ROMX, BANK[47]
-    INCBIN "effects.bin", 753664, 15992
+    INCBIN "effects.bin", 753664, 14066
 SECTION "Stream bank 48", ROMX, BANK[48]
-    INCBIN "effects.bin", 770048, 16138
+    INCBIN "effects.bin", 770048, 15630
 SECTION "Stream bank 49", ROMX, BANK[49]
-    INCBIN "effects.bin", 786432, 15852
+    INCBIN "effects.bin", 786432, 16174
 SECTION "Stream bank 50", ROMX, BANK[50]
-    INCBIN "effects.bin", 802816, 15938
+    INCBIN "effects.bin", 802816, 15534
 SECTION "Stream bank 51", ROMX, BANK[51]
-    INCBIN "effects.bin", 819200, 16080
+    INCBIN "effects.bin", 819200, 15958
 SECTION "Stream bank 52", ROMX, BANK[52]
-    INCBIN "effects.bin", 835584, 15640
+    INCBIN "effects.bin", 835584, 14838
 SECTION "Stream bank 53", ROMX, BANK[53]
-    INCBIN "effects.bin", 851968, 16290
+    INCBIN "effects.bin", 851968, 15128
 SECTION "Stream bank 54", ROMX, BANK[54]
-    INCBIN "effects.bin", 868352, 15918
+    INCBIN "effects.bin", 868352, 15438
 SECTION "Stream bank 55", ROMX, BANK[55]
-    INCBIN "effects.bin", 884736, 16342
+    INCBIN "effects.bin", 884736, 15322
 SECTION "Stream bank 56", ROMX, BANK[56]
-    INCBIN "effects.bin", 901120, 16134
+    INCBIN "effects.bin", 901120, 15706
 SECTION "Stream bank 57", ROMX, BANK[57]
-    INCBIN "effects.bin", 917504, 16370
+    INCBIN "effects.bin", 917504, 15416
 SECTION "Stream bank 58", ROMX, BANK[58]
-    INCBIN "effects.bin", 933888, 16256
+    INCBIN "effects.bin", 933888, 16288
 SECTION "Stream bank 59", ROMX, BANK[59]
-    INCBIN "effects.bin", 950272, 15788
+    INCBIN "effects.bin", 950272, 15900
 SECTION "Stream bank 60", ROMX, BANK[60]
-    INCBIN "effects.bin", 966656, 15804
+    INCBIN "effects.bin", 966656, 15708
 SECTION "Stream bank 61", ROMX, BANK[61]
-    INCBIN "effects.bin", 983040, 15830
+    INCBIN "effects.bin", 983040, 16316
 SECTION "Stream bank 62", ROMX, BANK[62]
-    INCBIN "effects.bin", 999424, 15684
+    INCBIN "effects.bin", 999424, 16312
 SECTION "Stream bank 63", ROMX, BANK[63]
-    INCBIN "effects.bin", 1015808, 15744
+    INCBIN "effects.bin", 1015808, 13548
 SECTION "Stream bank 64", ROMX, BANK[64]
-    INCBIN "effects.bin", 1032192, 16318
+    INCBIN "effects.bin", 1032192, 12644
 SECTION "Stream bank 65", ROMX, BANK[65]
-    INCBIN "effects.bin", 1048576, 16242
+    INCBIN "effects.bin", 1048576, 12754
 SECTION "Stream bank 66", ROMX, BANK[66]
-    INCBIN "effects.bin", 1064960, 16374
+    INCBIN "effects.bin", 1064960, 15008
 SECTION "Stream bank 67", ROMX, BANK[67]
-    INCBIN "effects.bin", 1081344, 16356
+    INCBIN "effects.bin", 1081344, 13698
 SECTION "Stream bank 68", ROMX, BANK[68]
-    INCBIN "effects.bin", 1097728, 16284
+    INCBIN "effects.bin", 1097728, 14952
 SECTION "Stream bank 69", ROMX, BANK[69]
-    INCBIN "effects.bin", 1114112, 16368
+    INCBIN "effects.bin", 1114112, 15618
 SECTION "Stream bank 70", ROMX, BANK[70]
-    INCBIN "effects.bin", 1130496, 16346
+    INCBIN "effects.bin", 1130496, 15412
 SECTION "Stream bank 71", ROMX, BANK[71]
-    INCBIN "effects.bin", 1146880, 16178
+    INCBIN "effects.bin", 1146880, 15354
 SECTION "Stream bank 72", ROMX, BANK[72]
-    INCBIN "effects.bin", 1163264, 15842
+    INCBIN "effects.bin", 1163264, 16268
 SECTION "Stream bank 73", ROMX, BANK[73]
-    INCBIN "effects.bin", 1179648, 15948
+    INCBIN "effects.bin", 1179648, 15328
 SECTION "Stream bank 74", ROMX, BANK[74]
-    INCBIN "effects.bin", 1196032, 15784
+    INCBIN "effects.bin", 1196032, 15874
 SECTION "Stream bank 75", ROMX, BANK[75]
-    INCBIN "effects.bin", 1212416, 15642
+    INCBIN "effects.bin", 1212416, 15678
 SECTION "Stream bank 76", ROMX, BANK[76]
-    INCBIN "effects.bin", 1228800, 16182
+    INCBIN "effects.bin", 1228800, 15712
 SECTION "Stream bank 77", ROMX, BANK[77]
-    INCBIN "effects.bin", 1245184, 15600
+    INCBIN "effects.bin", 1245184, 14578
 SECTION "Stream bank 78", ROMX, BANK[78]
-    INCBIN "effects.bin", 1261568, 16248
+    INCBIN "effects.bin", 1261568, 14900
 SECTION "Stream bank 79", ROMX, BANK[79]
-    INCBIN "effects.bin", 1277952, 16110
+    INCBIN "effects.bin", 1277952, 15450
 SECTION "Stream bank 80", ROMX, BANK[80]
-    INCBIN "effects.bin", 1294336, 15832
+    INCBIN "effects.bin", 1294336, 15230
 SECTION "Stream bank 81", ROMX, BANK[81]
-    INCBIN "effects.bin", 1310720, 16152
+    INCBIN "effects.bin", 1310720, 14800
 SECTION "Stream bank 82", ROMX, BANK[82]
-    INCBIN "effects.bin", 1327104, 15688
+    INCBIN "effects.bin", 1327104, 15674
 SECTION "Stream bank 83", ROMX, BANK[83]
-    INCBIN "effects.bin", 1343488, 15708
+    INCBIN "effects.bin", 1343488, 16028
 SECTION "Stream bank 84", ROMX, BANK[84]
-    INCBIN "effects.bin", 1359872, 15724
+    INCBIN "effects.bin", 1359872, 15458
 SECTION "Stream bank 85", ROMX, BANK[85]
-    INCBIN "effects.bin", 1376256, 15958
+    INCBIN "effects.bin", 1376256, 15208
 SECTION "Stream bank 86", ROMX, BANK[86]
-    INCBIN "effects.bin", 1392640, 16344
+    INCBIN "effects.bin", 1392640, 15744
 SECTION "Stream bank 87", ROMX, BANK[87]
-    INCBIN "effects.bin", 1409024, 15580
+    INCBIN "effects.bin", 1409024, 14880
 SECTION "Stream bank 88", ROMX, BANK[88]
-    INCBIN "effects.bin", 1425408, 15692
+    INCBIN "effects.bin", 1425408, 15370
 SECTION "Stream bank 89", ROMX, BANK[89]
-    INCBIN "effects.bin", 1441792, 14602
+    INCBIN "effects.bin", 1441792, 15170
 SECTION "Stream bank 90", ROMX, BANK[90]
-    INCBIN "effects.bin", 1458176, 14106
+    INCBIN "effects.bin", 1458176, 14360
 SECTION "Stream bank 91", ROMX, BANK[91]
-    INCBIN "effects.bin", 1474560, 15206
+    INCBIN "effects.bin", 1474560, 15114
 SECTION "Stream bank 92", ROMX, BANK[92]
-    INCBIN "effects.bin", 1490944, 16256
+    INCBIN "effects.bin", 1490944, 15868
 SECTION "Stream bank 93", ROMX, BANK[93]
-    INCBIN "effects.bin", 1507328, 14022
+    INCBIN "effects.bin", 1507328, 15878
 SECTION "Stream bank 94", ROMX, BANK[94]
-    INCBIN "effects.bin", 1523712, 16286
+    INCBIN "effects.bin", 1523712, 16064
 SECTION "Stream bank 95", ROMX, BANK[95]
-    INCBIN "effects.bin", 1540096, 15816
+    INCBIN "effects.bin", 1540096, 14692
 SECTION "Stream bank 96", ROMX, BANK[96]
-    INCBIN "effects.bin", 1556480, 15970
+    INCBIN "effects.bin", 1556480, 16034
 SECTION "Stream bank 97", ROMX, BANK[97]
-    INCBIN "effects.bin", 1572864, 16300
+    INCBIN "effects.bin", 1572864, 15274
 SECTION "Stream bank 98", ROMX, BANK[98]
-    INCBIN "effects.bin", 1589248, 16150
+    INCBIN "effects.bin", 1589248, 16042
 SECTION "Stream bank 99", ROMX, BANK[99]
-    INCBIN "effects.bin", 1605632, 14076
+    INCBIN "effects.bin", 1605632, 15184
 SECTION "Stream bank 100", ROMX, BANK[100]
-    INCBIN "effects.bin", 1622016, 15126
+    INCBIN "effects.bin", 1622016, 16034
 SECTION "Stream bank 101", ROMX, BANK[101]
-    INCBIN "effects.bin", 1638400, 14446
+    INCBIN "effects.bin", 1638400, 15164
 SECTION "Stream bank 102", ROMX, BANK[102]
-    INCBIN "effects.bin", 1654784, 15750
+    INCBIN "effects.bin", 1654784, 15972
 SECTION "Stream bank 103", ROMX, BANK[103]
-    INCBIN "effects.bin", 1671168, 15290
+    INCBIN "effects.bin", 1671168, 16162
 SECTION "Stream bank 104", ROMX, BANK[104]
-    INCBIN "effects.bin", 1687552, 15044
+    INCBIN "effects.bin", 1687552, 16204
 SECTION "Stream bank 105", ROMX, BANK[105]
-    INCBIN "effects.bin", 1703936, 15404
+    INCBIN "effects.bin", 1703936, 15930
 SECTION "Stream bank 106", ROMX, BANK[106]
-    INCBIN "effects.bin", 1720320, 15578
+    INCBIN "effects.bin", 1720320, 16244
 SECTION "Stream bank 107", ROMX, BANK[107]
-    INCBIN "effects.bin", 1736704, 15058
+    INCBIN "effects.bin", 1736704, 16254
 SECTION "Stream bank 108", ROMX, BANK[108]
-    INCBIN "effects.bin", 1753088, 15418
+    INCBIN "effects.bin", 1753088, 16316
 SECTION "Stream bank 109", ROMX, BANK[109]
-    INCBIN "effects.bin", 1769472, 15048
+    INCBIN "effects.bin", 1769472, 16218
 SECTION "Stream bank 110", ROMX, BANK[110]
-    INCBIN "effects.bin", 1785856, 16096
+    INCBIN "effects.bin", 1785856, 15958
 SECTION "Stream bank 111", ROMX, BANK[111]
-    INCBIN "effects.bin", 1802240, 15786
+    INCBIN "effects.bin", 1802240, 16220
 SECTION "Stream bank 112", ROMX, BANK[112]
-    INCBIN "effects.bin", 1818624, 15660
+    INCBIN "effects.bin", 1818624, 16346
 SECTION "Stream bank 113", ROMX, BANK[113]
-    INCBIN "effects.bin", 1835008, 16382
+    INCBIN "effects.bin", 1835008, 16272
 SECTION "Stream bank 114", ROMX, BANK[114]
-    INCBIN "effects.bin", 1851392, 15524
+    INCBIN "effects.bin", 1851392, 16200
 SECTION "Stream bank 115", ROMX, BANK[115]
-    INCBIN "effects.bin", 1867776, 15836
+    INCBIN "effects.bin", 1867776, 16264
 SECTION "Stream bank 116", ROMX, BANK[116]
-    INCBIN "effects.bin", 1884160, 15936
+    INCBIN "effects.bin", 1884160, 16084
 SECTION "Stream bank 117", ROMX, BANK[117]
-    INCBIN "effects.bin", 1900544, 16244
+    INCBIN "effects.bin", 1900544, 16078
 SECTION "Stream bank 118", ROMX, BANK[118]
-    INCBIN "effects.bin", 1916928, 12144
+    INCBIN "effects.bin", 1916928, 16116
 SECTION "Stream bank 119", ROMX, BANK[119]
-    INCBIN "effects.bin", 1933312, 12934
+    INCBIN "effects.bin", 1933312, 15920
 SECTION "Stream bank 120", ROMX, BANK[120]
-    INCBIN "effects.bin", 1949696, 16128
+    INCBIN "effects.bin", 1949696, 16084
 SECTION "Stream bank 121", ROMX, BANK[121]
-    INCBIN "effects.bin", 1966080, 14068
+    INCBIN "effects.bin", 1966080, 16270
 SECTION "Stream bank 122", ROMX, BANK[122]
-    INCBIN "effects.bin", 1982464, 13718
+    INCBIN "effects.bin", 1982464, 16286
 SECTION "Stream bank 123", ROMX, BANK[123]
-    INCBIN "effects.bin", 1998848, 14716
+    INCBIN "effects.bin", 1998848, 16256
 SECTION "Stream bank 124", ROMX, BANK[124]
-    INCBIN "effects.bin", 2015232, 16344
+    INCBIN "effects.bin", 2015232, 16334
 SECTION "Stream bank 125", ROMX, BANK[125]
-    INCBIN "effects.bin", 2031616, 16186
+    INCBIN "effects.bin", 2031616, 16280
 SECTION "Stream bank 126", ROMX, BANK[126]
-    INCBIN "effects.bin", 2048000, 16364
+    INCBIN "effects.bin", 2048000, 16264
 SECTION "Stream bank 127", ROMX, BANK[127]
-    INCBIN "effects.bin", 2064384, 16258
+    INCBIN "effects.bin", 2064384, 16376
 SECTION "Stream bank 128", ROMX, BANK[128]
-    INCBIN "effects.bin", 2080768, 16140
+    INCBIN "effects.bin", 2080768, 15948
 SECTION "Stream bank 129", ROMX, BANK[129]
-    INCBIN "effects.bin", 2097152, 16204
+    INCBIN "effects.bin", 2097152, 16356
 SECTION "Stream bank 130", ROMX, BANK[130]
-    INCBIN "effects.bin", 2113536, 14824
+    INCBIN "effects.bin", 2113536, 16260
 SECTION "Stream bank 131", ROMX, BANK[131]
-    INCBIN "effects.bin", 2129920, 15640
+    INCBIN "effects.bin", 2129920, 16328
 SECTION "Stream bank 132", ROMX, BANK[132]
-    INCBIN "effects.bin", 2146304, 16020
+    INCBIN "effects.bin", 2146304, 16120
 SECTION "Stream bank 133", ROMX, BANK[133]
-    INCBIN "effects.bin", 2162688, 15368
+    INCBIN "effects.bin", 2162688, 16146
 SECTION "Stream bank 134", ROMX, BANK[134]
-    INCBIN "effects.bin", 2179072, 15462
+    INCBIN "effects.bin", 2179072, 15530
 SECTION "Stream bank 135", ROMX, BANK[135]
-    INCBIN "effects.bin", 2195456, 16062
+    INCBIN "effects.bin", 2195456, 15370
 SECTION "Stream bank 136", ROMX, BANK[136]
-    INCBIN "effects.bin", 2211840, 15676
+    INCBIN "effects.bin", 2211840, 15862
 SECTION "Stream bank 137", ROMX, BANK[137]
-    INCBIN "effects.bin", 2228224, 16380
+    INCBIN "effects.bin", 2228224, 15940
 SECTION "Stream bank 138", ROMX, BANK[138]
-    INCBIN "effects.bin", 2244608, 15846
+    INCBIN "effects.bin", 2244608, 16074
 SECTION "Stream bank 139", ROMX, BANK[139]
-    INCBIN "effects.bin", 2260992, 16256
+    INCBIN "effects.bin", 2260992, 16050
 SECTION "Stream bank 140", ROMX, BANK[140]
-    INCBIN "effects.bin", 2277376, 15962
+    INCBIN "effects.bin", 2277376, 16090
 SECTION "Stream bank 141", ROMX, BANK[141]
-    INCBIN "effects.bin", 2293760, 15516
+    INCBIN "effects.bin", 2293760, 15594
 SECTION "Stream bank 142", ROMX, BANK[142]
-    INCBIN "effects.bin", 2310144, 15794
+    INCBIN "effects.bin", 2310144, 16224
 SECTION "Stream bank 143", ROMX, BANK[143]
-    INCBIN "effects.bin", 2326528, 15176
+    INCBIN "effects.bin", 2326528, 16240
 SECTION "Stream bank 144", ROMX, BANK[144]
-    INCBIN "effects.bin", 2342912, 16040
+    INCBIN "effects.bin", 2342912, 16326
 SECTION "Stream bank 145", ROMX, BANK[145]
-    INCBIN "effects.bin", 2359296, 16240
+    INCBIN "effects.bin", 2359296, 16134
 SECTION "Stream bank 146", ROMX, BANK[146]
-    INCBIN "effects.bin", 2375680, 16176
+    INCBIN "effects.bin", 2375680, 15910
 SECTION "Stream bank 147", ROMX, BANK[147]
-    INCBIN "effects.bin", 2392064, 15554
+    INCBIN "effects.bin", 2392064, 15426
 SECTION "Stream bank 148", ROMX, BANK[148]
-    INCBIN "effects.bin", 2408448, 15298
+    INCBIN "effects.bin", 2408448, 15592
 SECTION "Stream bank 149", ROMX, BANK[149]
-    INCBIN "effects.bin", 2424832, 15284
+    INCBIN "effects.bin", 2424832, 15536
 SECTION "Stream bank 150", ROMX, BANK[150]
-    INCBIN "effects.bin", 2441216, 15738
+    INCBIN "effects.bin", 2441216, 16214
 SECTION "Stream bank 151", ROMX, BANK[151]
-    INCBIN "effects.bin", 2457600, 16218
+    INCBIN "effects.bin", 2457600, 16050
 SECTION "Stream bank 152", ROMX, BANK[152]
-    INCBIN "effects.bin", 2473984, 15334
+    INCBIN "effects.bin", 2473984, 16146
 SECTION "Stream bank 153", ROMX, BANK[153]
-    INCBIN "effects.bin", 2490368, 16142
+    INCBIN "effects.bin", 2490368, 16058
 SECTION "Stream bank 154", ROMX, BANK[154]
-    INCBIN "effects.bin", 2506752, 15742
+    INCBIN "effects.bin", 2506752, 16170
 SECTION "Stream bank 155", ROMX, BANK[155]
-    INCBIN "effects.bin", 2523136, 15374
+    INCBIN "effects.bin", 2523136, 16310
 SECTION "Stream bank 156", ROMX, BANK[156]
-    INCBIN "effects.bin", 2539520, 15200
+    INCBIN "effects.bin", 2539520, 15810
 SECTION "Stream bank 157", ROMX, BANK[157]
-    INCBIN "effects.bin", 2555904, 15230
+    INCBIN "effects.bin", 2555904, 15338
 SECTION "Stream bank 158", ROMX, BANK[158]
-    INCBIN "effects.bin", 2572288, 14990
+    INCBIN "effects.bin", 2572288, 15200
 SECTION "Stream bank 159", ROMX, BANK[159]
-    INCBIN "effects.bin", 2588672, 14300
+    INCBIN "effects.bin", 2588672, 16378
 SECTION "Stream bank 160", ROMX, BANK[160]
-    INCBIN "effects.bin", 2605056, 15064
+    INCBIN "effects.bin", 2605056, 16138
 SECTION "Stream bank 161", ROMX, BANK[161]
-    INCBIN "effects.bin", 2621440, 15708
+    INCBIN "effects.bin", 2621440, 16360
 SECTION "Stream bank 162", ROMX, BANK[162]
-    INCBIN "effects.bin", 2637824, 15128
+    INCBIN "effects.bin", 2637824, 16206
 SECTION "Stream bank 163", ROMX, BANK[163]
-    INCBIN "effects.bin", 2654208, 15358
+    INCBIN "effects.bin", 2654208, 16376
 SECTION "Stream bank 164", ROMX, BANK[164]
-    INCBIN "effects.bin", 2670592, 14770
+    INCBIN "effects.bin", 2670592, 16012
 SECTION "Stream bank 165", ROMX, BANK[165]
-    INCBIN "effects.bin", 2686976, 15510
+    INCBIN "effects.bin", 2686976, 14726
 SECTION "Stream bank 166", ROMX, BANK[166]
-    INCBIN "effects.bin", 2703360, 15390
+    INCBIN "effects.bin", 2703360, 15274
 SECTION "Stream bank 167", ROMX, BANK[167]
-    INCBIN "effects.bin", 2719744, 15180
+    INCBIN "effects.bin", 2719744, 14540
 SECTION "Stream bank 168", ROMX, BANK[168]
-    INCBIN "effects.bin", 2736128, 15704
+    INCBIN "effects.bin", 2736128, 16048
 SECTION "Stream bank 169", ROMX, BANK[169]
-    INCBIN "effects.bin", 2752512, 16038
+    INCBIN "effects.bin", 2752512, 16056
 SECTION "Stream bank 170", ROMX, BANK[170]
-    INCBIN "effects.bin", 2768896, 15858
+    INCBIN "effects.bin", 2768896, 16246
 SECTION "Stream bank 171", ROMX, BANK[171]
-    INCBIN "effects.bin", 2785280, 15978
+    INCBIN "effects.bin", 2785280, 16236
 SECTION "Stream bank 172", ROMX, BANK[172]
-    INCBIN "effects.bin", 2801664, 16356
+    INCBIN "effects.bin", 2801664, 16284
 SECTION "Stream bank 173", ROMX, BANK[173]
-    INCBIN "effects.bin", 2818048, 16288
+    INCBIN "effects.bin", 2818048, 16060
 SECTION "Stream bank 174", ROMX, BANK[174]
-    INCBIN "effects.bin", 2834432, 14242
+    INCBIN "effects.bin", 2834432, 16306
 SECTION "Stream bank 175", ROMX, BANK[175]
-    INCBIN "effects.bin", 2850816, 16382
+    INCBIN "effects.bin", 2850816, 16332
 SECTION "Stream bank 176", ROMX, BANK[176]
-    INCBIN "effects.bin", 2867200, 15046
+    INCBIN "effects.bin", 2867200, 15746
 SECTION "Stream bank 177", ROMX, BANK[177]
-    INCBIN "effects.bin", 2883584, 16238
+    INCBIN "effects.bin", 2883584, 16158
 SECTION "Stream bank 178", ROMX, BANK[178]
-    INCBIN "effects.bin", 2899968, 15972
+    INCBIN "effects.bin", 2899968, 15650
 SECTION "Stream bank 179", ROMX, BANK[179]
-    INCBIN "effects.bin", 2916352, 16300
+    INCBIN "effects.bin", 2916352, 16308
 SECTION "Stream bank 180", ROMX, BANK[180]
-    INCBIN "effects.bin", 2932736, 16172
+    INCBIN "effects.bin", 2932736, 16342
 SECTION "Stream bank 181", ROMX, BANK[181]
-    INCBIN "effects.bin", 2949120, 16340
+    INCBIN "effects.bin", 2949120, 15966
 SECTION "Stream bank 182", ROMX, BANK[182]
-    INCBIN "effects.bin", 2965504, 16182
+    INCBIN "effects.bin", 2965504, 16238
 SECTION "Stream bank 183", ROMX, BANK[183]
-    INCBIN "effects.bin", 2981888, 16138
+    INCBIN "effects.bin", 2981888, 16110
 SECTION "Stream bank 184", ROMX, BANK[184]
-    INCBIN "effects.bin", 2998272, 16080
+    INCBIN "effects.bin", 2998272, 15606
 SECTION "Stream bank 185", ROMX, BANK[185]
-    INCBIN "effects.bin", 3014656, 15990
+    INCBIN "effects.bin", 3014656, 15428
 SECTION "Stream bank 186", ROMX, BANK[186]
-    INCBIN "effects.bin", 3031040, 16268
+    INCBIN "effects.bin", 3031040, 16152
 SECTION "Stream bank 187", ROMX, BANK[187]
-    INCBIN "effects.bin", 3047424, 16298
+    INCBIN "effects.bin", 3047424, 15572
 SECTION "Stream bank 188", ROMX, BANK[188]
-    INCBIN "effects.bin", 3063808, 16382
+    INCBIN "effects.bin", 3063808, 15976
 SECTION "Stream bank 189", ROMX, BANK[189]
-    INCBIN "effects.bin", 3080192, 15986
+    INCBIN "effects.bin", 3080192, 15902
 SECTION "Stream bank 190", ROMX, BANK[190]
-    INCBIN "effects.bin", 3096576, 16220
+    INCBIN "effects.bin", 3096576, 16238
 SECTION "Stream bank 191", ROMX, BANK[191]
-    INCBIN "effects.bin", 3112960, 16006
+    INCBIN "effects.bin", 3112960, 15864
 SECTION "Stream bank 192", ROMX, BANK[192]
-    INCBIN "effects.bin", 3129344, 16110
+    INCBIN "effects.bin", 3129344, 13844
 SECTION "Stream bank 193", ROMX, BANK[193]
-    INCBIN "effects.bin", 3145728, 16310
+    INCBIN "effects.bin", 3145728, 16216
 SECTION "Stream bank 194", ROMX, BANK[194]
-    INCBIN "effects.bin", 3162112, 16224
+    INCBIN "effects.bin", 3162112, 13978
 SECTION "Stream bank 195", ROMX, BANK[195]
-    INCBIN "effects.bin", 3178496, 16046
+    INCBIN "effects.bin", 3178496, 16254
 SECTION "Stream bank 196", ROMX, BANK[196]
-    INCBIN "effects.bin", 3194880, 16206
+    INCBIN "effects.bin", 3194880, 16322
 SECTION "Stream bank 197", ROMX, BANK[197]
-    INCBIN "effects.bin", 3211264, 16286
+    INCBIN "effects.bin", 3211264, 16362
 SECTION "Stream bank 198", ROMX, BANK[198]
-    INCBIN "effects.bin", 3227648, 16196
+    INCBIN "effects.bin", 3227648, 16184
 SECTION "Stream bank 199", ROMX, BANK[199]
-    INCBIN "effects.bin", 3244032, 16148
+    INCBIN "effects.bin", 3244032, 16194
 SECTION "Stream bank 200", ROMX, BANK[200]
-    INCBIN "effects.bin", 3260416, 16102
+    INCBIN "effects.bin", 3260416, 16088
 SECTION "Stream bank 201", ROMX, BANK[201]
-    INCBIN "effects.bin", 3276800, 16222
+    INCBIN "effects.bin", 3276800, 16226
 SECTION "Stream bank 202", ROMX, BANK[202]
-    INCBIN "effects.bin", 3293184, 16220
+    INCBIN "effects.bin", 3293184, 15896
 SECTION "Stream bank 203", ROMX, BANK[203]
-    INCBIN "effects.bin", 3309568, 16160
+    INCBIN "effects.bin", 3309568, 16064
 SECTION "Stream bank 204", ROMX, BANK[204]
-    INCBIN "effects.bin", 3325952, 16004
+    INCBIN "effects.bin", 3325952, 15962
 SECTION "Stream bank 205", ROMX, BANK[205]
-    INCBIN "effects.bin", 3342336, 16232
+    INCBIN "effects.bin", 3342336, 15938
 SECTION "Stream bank 206", ROMX, BANK[206]
-    INCBIN "effects.bin", 3358720, 16326
+    INCBIN "effects.bin", 3358720, 16170
 SECTION "Stream bank 207", ROMX, BANK[207]
-    INCBIN "effects.bin", 3375104, 16282
+    INCBIN "effects.bin", 3375104, 16214
 SECTION "Stream bank 208", ROMX, BANK[208]
-    INCBIN "effects.bin", 3391488, 15850
+    INCBIN "effects.bin", 3391488, 16070
 SECTION "Stream bank 209", ROMX, BANK[209]
-    INCBIN "effects.bin", 3407872, 16160
+    INCBIN "effects.bin", 3407872, 16272
 SECTION "Stream bank 210", ROMX, BANK[210]
-    INCBIN "effects.bin", 3424256, 15972
+    INCBIN "effects.bin", 3424256, 16258
 SECTION "Stream bank 211", ROMX, BANK[211]
-    INCBIN "effects.bin", 3440640, 16232
+    INCBIN "effects.bin", 3440640, 15864
 SECTION "Stream bank 212", ROMX, BANK[212]
-    INCBIN "effects.bin", 3457024, 16024
+    INCBIN "effects.bin", 3457024, 16242
 SECTION "Stream bank 213", ROMX, BANK[213]
-    INCBIN "effects.bin", 3473408, 16304
+    INCBIN "effects.bin", 3473408, 15960
 SECTION "Stream bank 214", ROMX, BANK[214]
-    INCBIN "effects.bin", 3489792, 12328
+    INCBIN "effects.bin", 3489792, 15796
 SECTION "Stream bank 215", ROMX, BANK[215]
-    INCBIN "effects.bin", 3506176, 15424
+    INCBIN "effects.bin", 3506176, 15616
 SECTION "Stream bank 216", ROMX, BANK[216]
-    INCBIN "effects.bin", 3522560, 14616
+    INCBIN "effects.bin", 3522560, 16242
 SECTION "Stream bank 217", ROMX, BANK[217]
-    INCBIN "effects.bin", 3538944, 11538
+    INCBIN "effects.bin", 3538944, 15624
 SECTION "Stream bank 218", ROMX, BANK[218]
-    INCBIN "effects.bin", 3555328, 15862
+    INCBIN "effects.bin", 3555328, 16380
 SECTION "Stream bank 219", ROMX, BANK[219]
-    INCBIN "effects.bin", 3571712, 14648
+    INCBIN "effects.bin", 3571712, 16310
 SECTION "Stream bank 220", ROMX, BANK[220]
-    INCBIN "effects.bin", 3588096, 16034
+    INCBIN "effects.bin", 3588096, 15960
 SECTION "Stream bank 221", ROMX, BANK[221]
-    INCBIN "effects.bin", 3604480, 16078
+    INCBIN "effects.bin", 3604480, 16064
 SECTION "Stream bank 222", ROMX, BANK[222]
-    INCBIN "effects.bin", 3620864, 16012
+    INCBIN "effects.bin", 3620864, 16234
 SECTION "Stream bank 223", ROMX, BANK[223]
-    INCBIN "effects.bin", 3637248, 14410
+    INCBIN "effects.bin", 3637248, 15956
 SECTION "Stream bank 224", ROMX, BANK[224]
-    INCBIN "effects.bin", 3653632, 16014
+    INCBIN "effects.bin", 3653632, 16342
 SECTION "Stream bank 225", ROMX, BANK[225]
-    INCBIN "effects.bin", 3670016, 15988
+    INCBIN "effects.bin", 3670016, 14872
 SECTION "Stream bank 226", ROMX, BANK[226]
-    INCBIN "effects.bin", 3686400, 16336
+    INCBIN "effects.bin", 3686400, 14862
 SECTION "Stream bank 227", ROMX, BANK[227]
-    INCBIN "effects.bin", 3702784, 16024
+    INCBIN "effects.bin", 3702784, 15762
 SECTION "Stream bank 228", ROMX, BANK[228]
-    INCBIN "effects.bin", 3719168, 15810
+    INCBIN "effects.bin", 3719168, 16378
 SECTION "Stream bank 229", ROMX, BANK[229]
-    INCBIN "effects.bin", 3735552, 15626
+    INCBIN "effects.bin", 3735552, 16138
 SECTION "Stream bank 230", ROMX, BANK[230]
-    INCBIN "effects.bin", 3751936, 16252
+    INCBIN "effects.bin", 3751936, 15996
 SECTION "Stream bank 231", ROMX, BANK[231]
-    INCBIN "effects.bin", 3768320, 15808
+    INCBIN "effects.bin", 3768320, 15874
 SECTION "Stream bank 232", ROMX, BANK[232]
-    INCBIN "effects.bin", 3784704, 15578
+    INCBIN "effects.bin", 3784704, 12862
 SECTION "Stream bank 233", ROMX, BANK[233]
-    INCBIN "effects.bin", 3801088, 15118
+    INCBIN "effects.bin", 3801088, 15702
 SECTION "Stream bank 234", ROMX, BANK[234]
-    INCBIN "effects.bin", 3817472, 15492
+    INCBIN "effects.bin", 3817472, 15796
 SECTION "Stream bank 235", ROMX, BANK[235]
-    INCBIN "effects.bin", 3833856, 16234
+    INCBIN "effects.bin", 3833856, 15494
 SECTION "Stream bank 236", ROMX, BANK[236]
-    INCBIN "effects.bin", 3850240, 16086
+    INCBIN "effects.bin", 3850240, 16226
 SECTION "Stream bank 237", ROMX, BANK[237]
-    INCBIN "effects.bin", 3866624, 15946
+    INCBIN "effects.bin", 3866624, 16298
 SECTION "Stream bank 238", ROMX, BANK[238]
-    INCBIN "effects.bin", 3883008, 16230
+    INCBIN "effects.bin", 3883008, 15950
 SECTION "Stream bank 239", ROMX, BANK[239]
-    INCBIN "effects.bin", 3899392, 15816
+    INCBIN "effects.bin", 3899392, 15510
 SECTION "Stream bank 240", ROMX, BANK[240]
-    INCBIN "effects.bin", 3915776, 16068
+    INCBIN "effects.bin", 3915776, 15940
 SECTION "Stream bank 241", ROMX, BANK[241]
-    INCBIN "effects.bin", 3932160, 16182
+    INCBIN "effects.bin", 3932160, 15414
 SECTION "Stream bank 242", ROMX, BANK[242]
-    INCBIN "effects.bin", 3948544, 16378
+    INCBIN "effects.bin", 3948544, 15914
 SECTION "Stream bank 243", ROMX, BANK[243]
-    INCBIN "effects.bin", 3964928, 16294
+    INCBIN "effects.bin", 3964928, 16320
 SECTION "Stream bank 244", ROMX, BANK[244]
-    INCBIN "effects.bin", 3981312, 7314
+    INCBIN "effects.bin", 3981312, 2164

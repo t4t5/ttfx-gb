@@ -35,7 +35,7 @@ Stream format, read with the stack pointer, 16 bits at a time:
 Between effects the palettes go black while the last effect's frame is cleared
 and the next effect's first frame is drawn.
 
-Requires ttfx built in references/ttfx (cargo build --release).
+Requires ttfx built in reference/ttfx (cargo build --release).
 
 Usage: tools/effects.py [effect...]
 """
@@ -46,7 +46,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-TTFX = ROOT / "references" / "ttfx" / "target" / "release" / "ttfx"
+TTFX = ROOT / "reference" / "ttfx" / "target" / "release" / "ttfx"
 DUMPS = ROOT / "build" / "dumps"
 LOGO = ROOT / "logo.txt"
 
@@ -94,12 +94,12 @@ OPTIONS = {
     "errorcorrect": ["--error-pairs", "0.5"],
 }
 
-# ttfx's effects, in the order they play
-EFFECTS = """beams binarypath blackhole bouncyballs bubbles burn colorshift crumble
-decrypt errorcorrect expand fireworks highlight laseretch matrix middleout
-orbittingvolley overflow pour print rain randomsequence rings scattered slice
-slide smoke spotlights spray swarm sweep synthgrid thunderstorm unstable
-vhstape waves wipe""".split()
+# ttfx's effects, in the order they play: the most impressive first
+EFFECTS = """laseretch thunderstorm beams matrix rings synthgrid swarm binarypath
+orbittingvolley bouncyballs spotlights decrypt blackhole fireworks burn smoke
+crumble vhstape unstable errorcorrect waves bubbles pour rain spray scattered
+slide slice middleout expand sweep highlight colorshift overflow print
+randomsequence wipe""".split()
 
 CELL = re.compile(r"(?:\x1b\[38;2;(\d+);(\d+);(\d+)m)?(.)(?:\x1b\[0m)?")
 BLACK = (0, 0, 0)

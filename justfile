@@ -1,6 +1,6 @@
 # The ROM is named after the project directory:
 rom := "build/" + file_name(justfile_directory()) + ".gb"
-ttfx := "references/ttfx/target/release/ttfx"
+ttfx := "reference/ttfx/target/release/ttfx"
 
 # Regenerate effects.bin and effects.inc: every ttfx effect playing over
 # logo.txt (Omarchy's screensaver logo), recorded with ttfx:
@@ -9,7 +9,7 @@ effects: ttfx
 
 # Build ttfx, the reference the effects are recorded with:
 ttfx:
-    test -x {{ ttfx }} || (cd references/ttfx && cargo build --release)
+    test -x {{ ttfx }} || (cd reference/ttfx && cargo build --release)
 
 # Build the ROM (-C marks it Game Boy Color compatible, -m MBC5 gives it
 # the ROM banks the effects take):
