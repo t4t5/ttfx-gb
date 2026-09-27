@@ -95,11 +95,7 @@ OPTIONS = {
 }
 
 # ttfx's effects, in the order they play: the most impressive first
-EFFECTS = """laseretch thunderstorm beams matrix rings synthgrid swarm binarypath
-orbittingvolley bouncyballs spotlights decrypt blackhole fireworks burn smoke
-crumble vhstape unstable errorcorrect waves bubbles pour rain spray scattered
-slide slice middleout expand sweep highlight colorshift overflow print
-randomsequence wipe""".split()
+EFFECTS = """synthgrid spotlights laseretch thunderstorm decrypt bouncyballs beams binarypath orbittingvolley blackhole fireworks burn smoke swarm crumble vhstape unstable errorcorrect waves matrix rings bubbles pour rain spray scattered slide slice middleout expand sweep highlight colorshift overflow print randomsequence wipe""".split()
 
 CELL = re.compile(r"(?:\x1b\[38;2;(\d+);(\d+);(\d+)m)?(.)(?:\x1b\[0m)?")
 BLACK = (0, 0, 0)
