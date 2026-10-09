@@ -1,5 +1,8 @@
 # Omarchy screensaver for the Game Boy
 
+<img width="1348" height="752" alt="image" src="https://github.com/user-attachments/assets/54a6e8f0-4302-4521-a511-26656ae24420" />
+
+
 ttfx, the engine behind [Omarchy](https://omarchy.org)'s screensaver, was just
 ported from Rust to x86-64 assembly. This keeps drilling: the same screensaver
 in Game Boy assembly, on a 4 MHz CPU with 8 KB of video RAM. It plays in gray
